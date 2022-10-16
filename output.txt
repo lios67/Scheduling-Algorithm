@@ -1,0 +1,17 @@
+Time: 15 New Process P2 Run Process P1
+Time: 20 New Process P3 Run Process P2
+Time: 30 New Process P4 Run Process P3
+Time: 40 New Process P3 Run Process P4
+Time: 45 New Process P5 Run Process P3
+Time: 50 New Process P4 Run Process P5
+Time: 50 New Process P3 Run Process P4
+Time: 55 New Process P4 Run Process P3
+Time: 55 New Process P6 Run Process P4
+Time: 70 New Process P4 Run Process P6
+Time: 80 New Process P2 Run Process P4
+Process P1: P1, 15, 0
+Process P5: P5, 5, 0
+Process P3: P3, 35, 15
+Process P6: P6, 15, 0
+Process P4: P4, 55, 35
+Process P2: P2, 95, 75
